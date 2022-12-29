@@ -8,7 +8,7 @@ import torch
 
 def download_model():
     # do a dry run of getting model path, which downloads the weights into the correct path if not present
-    path = gal.get_checkpoint_path("base")
+    path = gal.get_checkpoint_path("large")
     tok_path = gal.get_tokenizer_path()
 
 if __name__ == "__main__":
